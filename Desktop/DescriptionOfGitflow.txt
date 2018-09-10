@@ -1,0 +1,13 @@
+Description of GitFlow workflow: Gitflow is a branching model utilized for git and mainly used for collaboration/development teams. Gitflow utilizes the same commands and concepts as the Feature Branch Workflow. Furthermore, it assigns very specific roles to different branches and defines how and when they should interact. 
+
+A develop branch is created from master
+A release branch is created from develop
+Feature branches are created from develop
+When a feature is complete it is merged into the develop branch
+When the release branch is done it is merged into develop and master
+If an issue in master is detected a hotfix branch is created from master
+Once the hotfix is complete it is merged to both develop and master
+
+Key Differences from basic workflow, and key use cases
+Gitflow is essentially an abstract idea of a Git workflow
+Gitflow assigns specific roles to different branches and defines how and when they should interact
