@@ -1,0 +1,6 @@
+This feature branch was created using the gitflow extentions:
+git flow feature start feature_branch
+git flow feature finish feature_branch
+
+Each new feature should reside in its own branch, which can be pushed to the central repository for backup/collaboration. But, instead of branching off of master, feature branches use develop as their parent branch. When a feature is complete, it gets merged back into develop. Features should never interact directly with master.
+
